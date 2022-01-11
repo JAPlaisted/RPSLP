@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="header container">
+      <div class="score">
+        <div class="player-score">
+          <h2>Player</h2>
+          <p>0</p>
+        </div>
+        <div class="computer-score">
+          <h2>Computer</h2>
+          <p>0</p>
+        </div>
+      </div>
+    </section>
+    <div class="match fadeOut">
+      <h2 class="winner">Choose an option</h2>
+      <div class="grid grid--1x2 hands">
+        <img
+          class="player-hand"
+          src="./assets/rpsls-hands-rock.png"
+          alt=""
+          height="200px"
+          width="200px"
+        />
+        <img
+          class="computer-hand"
+          src="./assets/rpsls-hands-rock.png"
+          alt=""
+          height="200px"
+          width="200px"
+          ;
+        />
+      </div>
+      <div class="grid options">
+        <div class="grid grid--1x3">
+          <button class="btn rock">rock</button>
+          <button class="btn paper">paper</button>
+          <button class="btn scissors">scissors</button>
+        </div>
+        <div class="grid grid--1x2">
+          <button class="btn lizard">lizard</button>
+          <button class="btn spock">spock</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
